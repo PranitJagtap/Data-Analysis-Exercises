@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     Cereals-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-R12-weka.filters.unsupervised.attribute.Remove-R1-3,13-15
+Instances:    76
+Attributes:   10
+              calories
+              protein
+              fat
+              sodium
+              fiber
+              carbo
+              sugars
+              potass
+              vitamins
+              rating
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+rating =
+
+     -0.1178 * calories +
+      2.3811 * protein +
+     -2.7549 * fat +
+     -0.0542 * sodium +
+      2.9236 * fiber +
+      0.5933 * carbo +
+     -1.281  * sugars +
+     -0.0153 * potass +
+      3.8524 * vitamins=25,0 +
+     52.5148
+
+Time taken to build model: 0.02 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9922
+Mean absolute error                      0.8775
+Root mean squared error                  1.7214
+Relative absolute error                  8.0767 %
+Root relative squared error             12.2968 %
+Total Number of Instances               76     
+
